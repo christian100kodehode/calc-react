@@ -1,0 +1,335 @@
+/* __________________________________________________________________________________ */
+/* FIRST TRY, ONLY DESIGN WORKING */
+/* __________________________________________________________________________________ */
+
+body {
+  background-color: #3b4664;
+}
+
+.container {
+  width: 350px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px 15px;
+  justify-items: center;
+}
+
+.numbercsontainer {
+  background-color: #252d44;
+  padding: 25px;
+  width: 355px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.display {
+  margin-top: 20px;
+  padding: 25px;
+  width: 350px;
+  height: 70px;
+  background-color: #252d44;
+  border-radius: 5px;
+}
+
+.main {
+  margin: 50px;
+  width: 370px;
+}
+
+h2 {
+  color: white;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.switcher {
+  position: absolute;
+  top: 50px;
+  left: 400px;
+  width: 50px;
+  height: 20px;
+  border-radius: 100px;
+  background-color: #252d44;
+}
+
+.button {
+  position: absolute;
+  top: 52px;
+  left: 398px;
+  width: 16px;
+  height: 16px;
+  border-radius: 100px;
+  background-color: #d03f2f;
+  z-index: 1;
+  margin-left: 5px;
+}
+
+p {
+  position: absolute;
+  top: 43px;
+  left: 350px;
+  color: white;
+  font-family: "League Spartan", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.selector {
+  position: absolute;
+  top: 25px;
+  left: 405px;
+  letter-spacing: 4px;
+}
+
+.firstcalc {
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  left: 100px;
+  border: solid grey 10px;
+  border-radius: 20px;
+}
+
+/* __________________________________________________________________________________ */
+/* ANOTHER CALC */
+/* __________________________________________________________________________________ */
+.anothertry {
+  position: absolute;
+  top: 0;
+  width: 500px;
+  height: 600px;
+  left: 600px;
+  border: solid red 10px;
+  border-radius: 20px;
+}
+
+.root {
+  --primary: #3b4664;
+  --secondary: #252d44;
+  --dark: #d03f2f;
+  --light: #444b5a;
+}
+
+button {
+  font-family: "League Spartan", sans-serif;
+  font-size: 32px;
+  color: #444b5a;
+  text-align: center;
+  width: 80px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: hsl(30, 25%, 89%);
+}
+
+button:hover {
+  transform: scale(95%);
+}
+
+button:active {
+  background-color: #1b1d34;
+}
+
+.anothertry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calcluator2 {
+  width: 100%;
+  max-width: 400px;
+  background-color: var(--primary);
+}
+.display2 {
+  position: absolute;
+  top: 80px;
+  width: 360px;
+  height: 90px;
+  padding: 16px;
+  left: 50px;
+  background-color: #252d44;
+  border-radius: 5px;
+}
+
+.displaytext {
+  position: absolute;
+  left: 300px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.displaytext2 {
+  position: absolute;
+  top: 80px;
+  left: 60px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: right;
+  direction: rtl;
+  color: white;
+}
+
+.digits {
+  position: absolute;
+  top: 240px;
+  left: 60px;
+  width: 280px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px 10px;
+  justify-items: center;
+}
+
+.digitscsontainer {
+  background-color: #252d44;
+  padding: 25px;
+  height: 250px;
+  width: 350px;
+  border-radius: 5px;
+  margin-top: 140px;
+}
+
+.operators {
+  position: absolute;
+  top: 240px;
+  left: 350px;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px 10px;
+  justify-items: center;
+}
+
+.resetBtn,
+.delBtn {
+  color: white;
+  background-color: #616e9b;
+}
+
+.equalBtn {
+  color: white;
+  background-color: #d03f2f;
+}
+
+.calcText {
+  position: absolute;
+  top: 25px;
+  color: white;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+/* __________________________________________________________________________________ */
+/* OLD STUFF BELOW */
+/* __________________________________________________________________________________ */
+
+/* .Navbar {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+#rectangle {
+  width: 200px;
+  height: 300px;
+  background-color: green;
+}
+
+#rectangle2 {
+  width: 200px;
+  height: 300px;
+  background-color: blue;
+}
+
+#rectangle3 {
+  width: 200px;
+  height: 300px;
+  background-color: greenyellow;
+} */
+
+/* #container {
+  display: flex;
+  justify-content: center;
+  border: 2px red solid;
+} */
+
+/* #numbers {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  padding-right: 50px;
+  font-size: 30px;
+} */
+/* 
+button {
+  font-family: "League Spartan", sans-serif;
+  color: hsl(221, 14%, 31%); */
+/* border-style: hidden; */
+/* background-color: hsl(30, 25%, 89%);
+  font-size: 32px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: solid white 1px;
+  margin: 10px;
+  width: 12px;
+} */
+
+/* button:hover {
+  color: black;
+  background-image: linear-gradient(to bottom, #e3f1e7, #3be36b);
+} */
+
+/* button:active {
+  transform: scale(0.9);
+  box-shadow: 3px 2px 10px 1px rgba(0, 0, 0, 0.25);
+} */
+
+/* #numbers > li {
+  border: black 2px solid;
+  padding: 10px;
+  background-color: grey;
+  border-radius: 20px;
+  list-style: none;
+  width: 330px;
+  height: 220px;
+}
+
+#Loading {
+  color: blue;
+  font-weight: 800;
+  font-size: 20px;
+} */
+
+/* #Container {
+  margin: 20px;
+  border: black 2px solid;
+  background-color: greenyellow;
+  width: 290px;
+  box-shadow: 5px 5px 2px black;
+} */
+
+/* #PokemonImg {
+  width: 200px;
+  image-rendering: pixelated;
+}
+
+#infocard {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#smallinfo {
+  display: flex;
+  font-size: 10px;
+  justify-content: flex-end;
+  padding-right: 10px;
+  margin: 0;
+} */
