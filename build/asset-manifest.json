@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-pokeapi/static/css/main.24b77604.css",
-    "main.js": "/react-pokeapi/static/js/main.f177230a.js",
-    "index.html": "/react-pokeapi/index.html",
-    "main.24b77604.css.map": "/react-pokeapi/static/css/main.24b77604.css.map",
-    "main.f177230a.js.map": "/react-pokeapi/static/js/main.f177230a.js.map"
+    "main.css": "/calc-react/static/css/main.4bfad0cc.css",
+    "main.js": "/calc-react/static/js/main.352fecc9.js",
+    "index.html": "/calc-react/index.html",
+    "main.4bfad0cc.css.map": "/calc-react/static/css/main.4bfad0cc.css.map",
+    "main.352fecc9.js.map": "/calc-react/static/js/main.352fecc9.js.map"
   },
   "entrypoints": [
-    "static/css/main.24b77604.css",
-    "static/js/main.f177230a.js"
+    "static/css/main.4bfad0cc.css",
+    "static/js/main.352fecc9.js"
   ]
 }
